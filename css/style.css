@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All common css end */
+
+/* Heder Part Start */
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.navbar-brand img {
+    /* transition: .5s; */
+}
+
+/* .navbar-brand img:hover {
+    transform: scale(1.1);
+    background: rgb(180, 126, 255);
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+.navbar-nav {
+    /* transition: .5s; */
+}
+
+/* .navbar-nav:hover {
+    background: rgb(134, 138, 255);
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #DDD;
+    font-family: "Oswald", sans-serif;
+    transition: .5s !important;
+}
+
+/* .nav-link:hover {
+    color: #DDD;
+    background: tomato;
+    margin: 0 25px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+} */
+
+.socialPart a {
+    margin: 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    transition: .5s;
+}
+
+/* .socialPart a:hover {
+    background: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+} */
+
+/* Heder Part End */
+
+/* Bannar Part Start */
+#bannarPart {
+    padding: 340px 0 100px 0;
+    background: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    width: 521px;
+    line-height: 1.5;
+}
+
+.vmBtn {
+    padding-top: 50px;
+}
+
+.vmBtn a {
+    color: #121212;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    transition: .5s;
+}
+
+.vmBtn a:hover {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.vmBtnone {
+    padding: 15px;
+    background: #C103DA;
+    width: 10.1%;
+    width: 10.175%;
+    transition: .5s;
+}
+
+.vmBtnone:hover {
+    transform: scale(1.25);
+    border-radius: 50px;
+}
+
+.vmBtntwo {
+    padding: 15px;
+    background: #293DF0;
+    width: 10.1%;
+    width: 10.175%;
+    margin: 20px 0;
+    transition: .5s;
+}
+
+.vmBtntwo:hover {
+    transform: scale(1.25);
+    border-radius: 50px;
+}
+
+.vmBtnthree {
+    padding: 15px;
+    background: #B41616;
+    width: 10.1%;
+    width: 10.175%;
+    transition: .5s;
+}
+
+.bannarSocial {
+.vmBtnthree:hover {
+    transform: scale(1.25);
+    border-radius: 50px;
+}
+
+.bannarSocialpart {
+    padding-top: 160px;
+}
+
+.bannarSocial {
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.bannarSocial:hover {
+    transform: scale(1.1);
+    background: peru;
+}
+
+.bannarSocial a {
+    font-size: 35px;
+    color: #D9D9D9;
+    margin-right: 20px;
+    margin: 10px;
+    transition: .5s;
+}
+
+/* .bannarSocial a:hover {
+    color: black;
+    font-size: 40px;
+} */
+
+/* Bannar Part End */
