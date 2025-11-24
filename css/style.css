@@ -49,7 +49,7 @@ p {
 } */
 
 .navbar-nav {
-    /* transition: .5s; */
+    transition: .5s;
 }
 
 /* .navbar-nav:hover {
@@ -82,7 +82,7 @@ p {
     font-weight: 400;
     color: #fff;
     font-family: "Oswald", sans-serif;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 /* .socialPart a:hover {
@@ -105,89 +105,60 @@ p {
     background-size: cover;
 }
 
-h3 {
+.bannar h3 {
     font-size: 27px;
     font-weight: 400;
     color: #fff;
     font-family: "Oswald", sans-serif;
+    line-height: 40px;
 }
 
-h1 {
+.bannar h1 {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
     font-family: "Oswald", sans-serif;
-    line-height: 1.5;
+    line-height: 90px;
+    position: relative;
 }
 
-p {
+.bannar h1::after {
+    position: absolute;
+    height: 4px;
+    width: 90px;
+    background: #fff;
+    top: 67px;
+    right: 26px;
+    content: "";
+}
+
+.bannar p {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     font-family: "Oswald", sans-serif;
     width: 521px;
-    line-height: 1.5;
+    line-height: 24px;
+    padding-bottom: 50px;
 }
 
-.vmBtn {
-    padding-top: 50px;
-}
-
-.vmBtn a {
-    color: #121212;
+.bannarBtn a {
     font-size: 16px;
     font-weight: 400;
+    color: #121212;
     font-family: "Oswald", sans-serif;
+    padding: 15px 25px;
+    background: #fff;
     transition: .5s;
 }
 
-.vmBtn a:hover {
-    color: white;
+/* .bannarBtn a:hover {
     font-size: 18px;
     font-weight: 700;
-
-}
-
-.vmBtnone {
-    padding: 15px;
-    background: #C103DA;
-    width: 10.1%;
-    width: 10.175%;
-    transition: .5s;
-}
-
-.vmBtnone:hover {
-    transform: scale(1.25);
+    color: #fff;
+    background: rgb(71, 123, 255);
     border-radius: 50px;
-}
-
-.vmBtntwo {
-    padding: 15px;
-    background: #293DF0;
-    width: 10.1%;
-    width: 10.175%;
-    margin: 20px 0;
-    transition: .5s;
-}
-
-.vmBtntwo:hover {
-    transform: scale(1.25);
-    border-radius: 50px;
-}
-
-.vmBtnthree {
-    padding: 15px;
-    background: #B41616;
-    width: 10.1%;
-    width: 10.175%;
-    transition: .5s;
-}
-
-.bannarSocial {
-.vmBtnthree:hover {
-    transform: scale(1.25);
-    border-radius: 50px;
-}
+} */
 
 .bannarSocialpart {
     padding-top: 160px;
@@ -200,22 +171,188 @@ p {
     transition: .5s;
 }
 
-.bannarSocial:hover {
+/* .bannarSocial:hover {
     transform: scale(1.1);
     background: peru;
-}
+} */
 
 .bannarSocial a {
     font-size: 35px;
     color: #D9D9D9;
-    margin-right: 20px;
     margin: 10px;
     transition: .5s;
 }
 
-/* .bannarSocial a:hover {
+.bannarSocial a:hover {
     color: black;
     font-size: 40px;
-} */
+}
 
 /* Bannar Part End */
+/* About Part Start  */
+#aboutPart{
+    background: #121212;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+.aboutHeading h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 38px;
+    padding-right: 108px;
+    position: relative;
+
+}
+.aboutHeading h3::after {
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    left: 200px ;
+    bottom: 0px;
+    content: "";
+}
+.aboutCard{
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.aboutPoint{
+    margin-top: 140px;
+}
+.aboutPoint h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.aboutPoint h5{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+   
+}
+.aboutPoint i{
+   
+    color: #FF4655;
+    margin-right: 5px;
+     
+}
+.aboutPoint p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+     line-height: 24px;
+     padding-right: 109px;
+     padding-bottom: 50px;
+     padding-top: 20px;
+
+
+}
+.aboutPoint a{
+    padding: 13px 25px;
+    background: #212121;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 300px;
+
+
+}
+.aboutPoint a i{
+    color: #fff;
+
+}
+.cunterItem{
+    background: #212121;
+    padding: 26px 90px;
+    color: #fff;
+    border-top-right-radius: 50px ; 
+    border-bottom-left-radius: 50px;
+}
+.cunterItem h3{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 10px;
+
+
+}
+.cunterItem h3 i{
+    color: #B41616;
+    font-size: 12px;
+
+}
+.cunterItem p{
+    font-size: 18px;
+    font-weight: 300;
+     font-family: "Oswald", sans-serif;
+
+}
+
+ /* POPULAR Part Srart  */
+   
+   
+#popularPart{
+     background: #191919;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+.popularHeading h3{
+    font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2px;
+    text-align: right;
+    position: relative;
+    padding-top: 120px;
+    line-height: 90px;
+
+}
+.popularHeading h3::after {
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    right: 160px;
+    bottom: 18px;
+    content: "";
+}
+.popularCard{
+    padding-top: 210px;
+}
+.imgCard2{
+    padding-top: 90px;
+}
+.popularButtonpart {
+    position: relative;
+}
+
+.popularButton {
+    position: absolute;
+    top: -120px;
+    right: 0;
+}
+
+.popularButton1 {
+    color: #fff;
+    font-size: 40px;
+    transition: .5s;
+}
+
+
+.popularButton2 {
+    color: #fff;
+    font-size: 40px;
+    transition: .5s;
+}
+
+  /* POPULAR Part End  */
